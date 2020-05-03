@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Organiser</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="images/logo.jpg" type="image/gif" sizes="16x16">
+</head>
+<body>
+    <header style="position: fixed; width: 100%; z-index: 1;">
+        <div class="row">
+            <div class="col-md-6 p-3 pl-5">
+               <a href="index.html" style="text-decoration: none; color: black;"> <h2 >T-ORGANISER</h2> </a>
+            </div>
+            <div class="col-md-6">
+                <div class="regsign">
+                    <form method="POST" id="regsign" action="#" >
+                        <table class="mx-auto"  >
+                            <tr>
+                                <td>Username</td>
+                                <td>Password</td>
+                            </tr>
+                            <tr>
+                                <td><input name="username" type="text" required></td>
+                                <td><input name="password" type="password" required></td>
+                                <td><input class="sub_btn" type="submit" value="Submit"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="index.html" class="href" style="text-decoration: none; color: black;">Forget Password?</a></td>
+                            </tr>
+                        </table>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </header>
+    <section  style="padding-top: 6em;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <img style="width: 400px; margin-left: 48px;" src="images/logo.jpg" alt="" class="src">
+                </div>
+                <div class="col-md-6 col-12 center_div">
+                    <div class="register bkcl">
+                        <h3>REGISTER HERE</h3>    
+                        <form method="POST" id="register" action="#">
+                
+                            <label>First Name:</label><br>
+                            <input type="text" name="Fname" id="name" placeholder="First Name" required><br><br>
+
+                            <label>Last Name:</label><br>
+                            <input type="text" name="Lname" id="name" placeholder="Last Name" required><br><br>
+
+                            <label>Mobile Number:</label><br>
+                            <select id="ph">
+                                <option value="91">+91</option>
+                                <option value="92">+92</option>
+                                <option value="93">+93</option>
+                                <option value="94">+94</option>
+                                <option value="95">+95</option>
+                            </select>
+                            <input type="number" name="MNum" id="num" placeholder="Mobile Number" required><br><br>
+
+                            <label>Email:</label><br>
+                            <input type="email" name="email" id="name" placeholder="Enter Email Address" required><br><br>
+
+                            <label>Password:</label><br>
+                            <input type="password" name="pass" id="name" placeholder="Password" required><br><br>
+
+                            <label> Re-Password:</label><br>
+                            <input type="password" name="pass" id="name" placeholder="Re-Password" required><br><br>
+                            <input type="radio" name="gender" id="male" required><span id="male">&nbsp; Male</span>&nbsp;
+                            <input type="radio" name="gender" id="male"><span id="male">&nbsp; Female</span>&nbsp;
+                            <input type="radio" name="gender" id="male"><span id="male">&nbsp; Others</span>&nbsp;<br><br>
+                            <input type="submit" value="Submit" id="sub">
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <footer>
+        <div class="row">
+            <h6 class="mx-auto">COPYRIGHT @ ALL RIGHT RESEVED</h6>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+</html>
