@@ -16,6 +16,7 @@ header{
 footer{
     
     background-color: rgb(255, 183, 0);
+    width:100%;
 }
 #register{
     margin-left: 50px;
